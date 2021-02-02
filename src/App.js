@@ -160,31 +160,6 @@ const App = () => {
 						path={`${process.env.PUBLIC_URL + "/"}`}
 						component={HomePersonalPortfolio}
 					/>
-					{/* <Route
-						path={`${process.env.PUBLIC_URL + "/home-blog"}`}
-						component={HomeBlog}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/home-five-column"}`}
-						component={HomeFiveColumn}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/home-four-column"}`}
-						component={HomeFourColumn}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/home-three-column"}`}
-						component={HomeThreeColumn}
-					/> */}
-					{/* <Route
-						path={`${process.env.PUBLIC_URL + "/home-default"}`}
-						component={HomeDefault}
-					/> */}
-					{/* <Route
-						exact
-						path={`${process.env.PUBLIC_URL + "/"}`}
-						component={DemoPage}
-					/> */}
 					<Route exact component={ErrorPage} />
 				</Switch>
 			</Router>
