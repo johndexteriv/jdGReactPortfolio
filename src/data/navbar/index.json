@@ -24,73 +24,11 @@
         "title": "Portfolio Grid",
         "link": "/",
         "subMenu": [
-          {
-            "id": "3.1.1",
-            "title": "Two Column Box",
-            "link": "/portfolio-grid-two-column"
-          },
+         
           {
             "id": "3.1.2",
             "title": "Three Column Box",
             "link": "/portfolio-grid-three-column"
-          },
-          {
-            "id": "3.1.3",
-            "title": "Four Column Box",
-            "link": "/portfolio-grid-four-column"
-          },
-          {
-            "id": "3.1.4",
-            "title": "Three Column Fullwidth",
-            "link": "/portfolio-grid-three-column-fullwidth"
-          },
-          {
-            "id": "3.1.5",
-            "title": "Four Column Fullwidth",
-            "link": "/portfolio-grid-four-column-fullwidth"
-          },
-          {
-            "id": "3.1.6",
-            "title": "Five Column Fullwidth",
-            "link": "/portfolio-grid-five-column-fullwidth"
-          }
-        ]
-      },
-      {
-        "id": 3.2,
-        "title": "Portfolio Masonry",
-        "link": "/",
-        "megaMenu": false,
-        "subMenu": [
-          {
-            "id": "3.2.1",
-            "title": "Two Column Box",
-            "link": "/portfolio-masonry-two-column"
-          },
-          {
-            "id": "3.2.2",
-            "title": "Three Column Box",
-            "link": "/portfolio-masonry-three-column"
-          },
-          {
-            "id": "3.2.3",
-            "title": "Four Column Box",
-            "link": "/portfolio-masonry-four-column"
-          },
-          {
-            "id": "3.2.4",
-            "title": "Three Column Fullwidth",
-            "link": "/portfolio-masonry-three-column-fullwidth"
-          },
-          {
-            "id": "3.2.5",
-            "title": "Four Column Fullwidth",
-            "link": "/portfolio-masonry-four-column-fullwidth"
-          },
-          {
-            "id": "3.2.6",
-            "title": "Five Column Fullwidth",
-            "link": "/portfolio-masonry-five-column-fullwidth"
           }
         ]
       },
