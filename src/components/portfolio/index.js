@@ -5,7 +5,7 @@ const Portfolio = ({ thumb, classes, title, category, variant }) => {
 	return (
 		<div className={`portfolio-item ${classes ? classes : " "}`}>
 			<Link
-				to={`${process.env.PUBLIC_URL + "/portfolio-details"}`}
+				to={`${process.env.PUBLIC_URL + "/"}${title}`}
 				className={"d-block"}
 			>
 				{variant === "column" ? (

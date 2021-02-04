@@ -12,19 +12,9 @@ import HomeDefault from "./pages/home/HomeDefault";
 // import HomeBlog from "./pages/home/HomeBlog";
 import HomePersonalPortfolio from "./pages/home/HomePersonalPortfolio";
 // import HomeFreelancerPortfolio from "./pages/home/HomeFreelancerPortfolio";
-import PortfolioGridTwoColumnPage from "./pages/portfolio/grid/two-column";
 import PortfolioGridThreeColumnPage from "./pages/portfolio/grid/three-column";
-import PortfolioGridFourColumnPage from "./pages/portfolio/grid/four-column";
-import PortfolioGridThreeColumnFullWidthPage from "./pages/portfolio/grid/three-column-fullwidth";
-import PortfolioGridFourColumnFullWidthPage from "./pages/portfolio/grid/four-column-fullwidth";
-import PortfolioGridFiveColumnFullWidthPage from "./pages/portfolio/grid/five-column-fullwidth";
-import PortfolioMasonryTwoColumnPage from "./pages/portfolio/masonry/two-column";
-import PortfolioMasonryThreeColumnPage from "./pages/portfolio/masonry/three-column";
-import PortfolioMasonryFourColumnPage from "./pages/portfolio/masonry/four-column";
-import PortfolioMasonryThreeColumnFullWidthPage from "./pages/portfolio/masonry/three-column-fullwidth";
-import PortfolioMasonryFourColumnFullWidthPage from "./pages/portfolio/masonry/four-column-fullwidth";
-import PortfolioMasonryFiveColumnFullWidthPage from "./pages/portfolio/masonry/five-column-fullwidth";
 import PortfolioDetailsPage from "./pages/portfolio/details";
+import ASGMDetailsPage from "./pages/portfolio/details/asgm";
 import BlogThreeColumnPage from "./pages/blog/ThreeColumn";
 import BlogTwoColumnLeftSidebarPage from "./pages/blog/TwoColumnLeftSidebar";
 import BlogTwoColumnRightSidebarPage from "./pages/blog/TwoColumnRightSidebar";
@@ -82,8 +72,8 @@ const App = () => {
 						component={PortfolioDetailsPage}
 					/>
 					<Route
-						path={`${process.env.PUBLIC_URL + "/asgm-details"}`}
-						component={PortfolioDetailsPage}
+						path={`${process.env.PUBLIC_URL + "/ASGM WFU UI"}`}
+						component={ASGMDetailsPage}
 					/>
 					{/* <Route
 						path={`${
