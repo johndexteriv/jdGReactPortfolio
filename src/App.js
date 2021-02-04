@@ -81,13 +81,16 @@ const App = () => {
 						path={`${process.env.PUBLIC_URL + "/portfolio-details"}`}
 						component={PortfolioDetailsPage}
 					/>
-
 					<Route
+						path={`${process.env.PUBLIC_URL + "/asgm-details"}`}
+						component={PortfolioDetailsPage}
+					/>
+					{/* <Route
 						path={`${
 							process.env.PUBLIC_URL + "/portfolio-grid-three-column-fullwidth"
 						}`}
 						component={PortfolioGridThreeColumnFullWidthPage}
-					/>
+					/> */}
 
 					<Route
 						path={`${process.env.PUBLIC_URL + "/portfolio-grid-three-column"}`}
