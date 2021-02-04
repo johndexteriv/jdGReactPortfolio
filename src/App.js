@@ -81,81 +81,23 @@ const App = () => {
 						path={`${process.env.PUBLIC_URL + "/portfolio-details"}`}
 						component={PortfolioDetailsPage}
 					/>
-					<Route
-						path={`${
-							process.env.PUBLIC_URL +
-							"/portfolio-masonry-five-column-fullwidth"
-						}`}
-						component={PortfolioMasonryFiveColumnFullWidthPage}
-					/>
-					<Route
-						path={`${
-							process.env.PUBLIC_URL +
-							"/portfolio-masonry-four-column-fullwidth"
-						}`}
-						component={PortfolioMasonryFourColumnFullWidthPage}
-					/>
-					<Route
-						path={`${
-							process.env.PUBLIC_URL +
-							"/portfolio-masonry-three-column-fullwidth"
-						}`}
-						component={PortfolioMasonryThreeColumnFullWidthPage}
-					/>
-					<Route
-						path={`${
-							process.env.PUBLIC_URL + "/portfolio-masonry-four-column"
-						}`}
-						component={PortfolioMasonryFourColumnPage}
-					/>
-					<Route
-						path={`${
-							process.env.PUBLIC_URL + "/portfolio-masonry-three-column"
-						}`}
-						component={PortfolioMasonryThreeColumnPage}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/portfolio-masonry-two-column"}`}
-						component={PortfolioMasonryTwoColumnPage}
-					/>
-					<Route
-						path={`${
-							process.env.PUBLIC_URL + "/portfolio-grid-five-column-fullwidth"
-						}`}
-						component={PortfolioGridFiveColumnFullWidthPage}
-					/>
-					<Route
-						path={`${
-							process.env.PUBLIC_URL + "/portfolio-grid-four-column-fullwidth"
-						}`}
-						component={PortfolioGridFourColumnFullWidthPage}
-					/>
+
 					<Route
 						path={`${
 							process.env.PUBLIC_URL + "/portfolio-grid-three-column-fullwidth"
 						}`}
 						component={PortfolioGridThreeColumnFullWidthPage}
 					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/portfolio-grid-four-column"}`}
-						component={PortfolioGridFourColumnPage}
-					/>
+
 					<Route
 						path={`${process.env.PUBLIC_URL + "/portfolio-grid-three-column"}`}
 						component={PortfolioGridThreeColumnPage}
 					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/portfolio-grid-two-column"}`}
-						component={PortfolioGridTwoColumnPage}
-					/>
+
 					<Route
 						path={`${process.env.PUBLIC_URL + "/about"}`}
 						component={AboutPage}
 					/>
-					{/* <Route
-						path={`${process.env.PUBLIC_URL + "/home-freelancer-portfolio"}`}
-						component={HomeFreelancerPortfolio}
-					/> */}
 					<Route
 						path={`${process.env.PUBLIC_URL + "/"}`}
 						component={HomePersonalPortfolio}
