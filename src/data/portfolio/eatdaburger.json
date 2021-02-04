@@ -1,0 +1,25 @@
+{
+  "title": "Eat Da Burger",
+  "category": "Design",
+  "description": "Eat Da Burger is a full stack application utilizing CRUD (create, read, update and delete) operations. It gives the user the ability to view all burgers in the database, input new burgers into a database, devour the burgers, and delete the burgers.",
+  "previewImages": [
+    "eatdaburger.png"
+  ],
+  "meta": {
+    "client": "UNC Boot Camp",
+    "date": "12/1/2020",
+    "website": "https://jdgeatdaburger.herokuapp.com/",
+    "services": [
+      "HTML",
+      "CSS",
+      "JQUERY",
+      "MYSQL",
+      "NODE.JS",
+      "EXPRESS.JS",
+      "HANDLEBARS",
+      "SELF-MADE ORM",
+      "HEROKU",
+      "JAWDB"
+    ]
+  }
+}

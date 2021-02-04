@@ -1,0 +1,21 @@
+{
+  "title": "Food + Flick",
+  "category": "Design",
+  "description": "Food + Flick gives the user the ability to query random movies and recipes from APIs and cleanly returns results based on their selected preferences. The three most recently returned searches are stored in local storage and can be queried again by button click.",
+  "previewImages": [
+    "FoodFlickScreenShot.png"
+  ],
+  "meta": {
+    "client": "UNC Boot Camp",
+    "date": "10/8/2020",
+    "website": "https://johndexteriv.github.io/foodflick/",
+    "services": [
+      "HTML",
+      "CSS",
+      "JQUERY",
+      "MATERIALIZE",
+      "OMDB API",
+      "SPOONACULAR API"
+    ]
+  }
+}
