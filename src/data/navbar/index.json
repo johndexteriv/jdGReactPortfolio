@@ -3,16 +3,8 @@
     "id": 1,
     "title": "Home",
     "link": "/",
-    "megaMenu": false,
-    "subMenu": [
-     
-      {
-        "id": 1.6,
-        "title": "Home Personal Portfolio",
-        "link": "/"
-      }
-      
-    ]
+    "megaMenu": false
+    
   },
   {
     "id": 2,
