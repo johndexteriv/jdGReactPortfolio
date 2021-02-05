@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "title": "WEB DESIGN",
-    "content": "There are many variations of passages of Ipsum available, but the majority have suffered alteration in some form, variations of passages of Ipsum available but the majority have suffered"
+    "title": "HTML5",
+    "content": "The modern building blocks of the internet."
   },
   {
     "id": 2,
-    "title": "PHOTOGRAPHY",
-    "content": "There are many variations of passages of Ipsum available, but the majority have suffered alteration in some form, variations of passages of Ipsum available but the majority have suffered"
+    "title": "CSS",
+    "content": "Describe and define the presentation of HTML building blocks."
   },
   {
     "id": 3,
-    "title": "WEB DEVELOPMENT",
-    "content": "There are many variations of passages of Ipsum available, but the majority have suffered alteration in some form, variations of passages of Ipsum available but the majority have suffered"
+    "title": "ES6 Javascript",
+    "content": "Applying logic and functionality to applications, in modern and user friendly structure and syntax."
   },
   {
     "id": 4,
