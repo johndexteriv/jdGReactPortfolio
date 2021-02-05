@@ -1,47 +1,41 @@
-import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap'
-import Form from "../../components/form";
-import QuickContact from "../../components/QuickContact";
-import Map from "../../components/map";
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Thumbnail from "../../components/thumbnail";
+import Content from "../../components/content";
+import Skill from "../../components/skill";
+import contactData from "../../data/Contact";
 
-const Contact = () => {
-    return (
-        <div className="bg-grey section ">
-            <div
-                className="section-wrap section pt-120 pt-lg-80 pt-md-80 pt-sm-80 pt-xs-50 pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
-                <Container>
-                    <Row>
-                        <Col lg={6} className={'mb-sm-45 mb-xs-45'}>
-                            <Row>
-                                <Col lg={10} className={'mb-45'}>
-                                    <div className="contact-form">
-                                        <h3>CONTACT FORM</h3>
-                                        <Form/>
-                                    </div>
-                                </Col>
+const Contact = ({ type }) => {
+	return (
+		<div className={type !== "page" ? "section-padding section" : null}>
+			<Container>
+				<Row className={"align-items-center"}>
+					<Col lg={6}>
+						<Content classes={"about-content"}>
+							<Row>
+								<Col lg={6}>
+									<h3 className="block-title">Contact</h3>
 
-                                <Col lg={10}>
-                                    <QuickContact
-                                        phone={'+012456879'}
-                                        email={'hello@example.com'}
-                                        location={'2020 Willshire Glen, Alpharetta, GA-30009'}
-                                    />
-                                </Col>
-                            </Row>
-                        </Col>
+									<div className="skill-wrap">
+										{contactData.contact.map((contact) => (
+											<Skill key={contact.id} title={contact.title} />
+										))}
+									</div>
+								</Col>
+							</Row>
+						</Content>
+					</Col>
 
-                        <Col lg={6}>
-                            <Map
-                                text={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid'}
-                                lat={40.6971494}
-                                long={-74.2598661}
-                            />
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
-        </div>
-    );
+					<Col lg={6}>
+						<Thumbnail
+							classes={"about-thumbnail mb-md-30 mb-sm-30 mb-xs-30"}
+							thumb={`about/${contactData.thumb}`}
+						/>
+					</Col>
+				</Row>
+			</Container>
+		</div>
+	);
 };
 
 export default Contact;

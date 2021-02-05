@@ -10,7 +10,14 @@ import Switcher from "./components/Switcher";
 // import HomeFourColumn from "./pages/home/HomeFourColumn";
 // import HomeFiveColumn from "./pages/home/HomeFiveColumn";
 // import HomeBlog from "./pages/home/HomeBlog";
-import HomeDefault from "./pages/home/HomeDefault";
+// import BlogThreeColumnPage from "./pages/blog/ThreeColumn";
+// import BlogTwoColumnLeftSidebarPage from "./pages/blog/TwoColumnLeftSidebar";
+// import BlogTwoColumnRightSidebarPage from "./pages/blog/TwoColumnRightSidebar";
+// import BlogDetailsRightSidebarPage from "./pages/blog/BlogDetailsRightSidebar";
+// import BlogDetailsLeftSidebarPage from "./pages/blog/BlogDetailsLeftSidebar";
+// import HomeDefault from "./pages/home/HomeDefault";
+// import TeamPage from "./pages/team";
+// import DemoPage from "./pages/demo";
 import HomePersonalPortfolio from "./pages/home/HomePersonalPortfolio";
 import PortfolioGridThreeColumnPage from "./pages/portfolio/grid/three-column";
 import PortfolioDetailsPage from "./pages/portfolio/details";
@@ -20,17 +27,10 @@ import FoodFlickDetailsPage from "./pages/portfolio/details/foodflick";
 import WorkDayDetailsPage from "./pages/portfolio/details/workday";
 import WeatherDashDetailPage from "./pages/portfolio/details/weatherdash";
 import EmployeeTempDetailPage from "./pages/portfolio/details/employeetemp";
-import BlogThreeColumnPage from "./pages/blog/ThreeColumn";
-import BlogTwoColumnLeftSidebarPage from "./pages/blog/TwoColumnLeftSidebar";
-import BlogTwoColumnRightSidebarPage from "./pages/blog/TwoColumnRightSidebar";
-import BlogDetailsRightSidebarPage from "./pages/blog/BlogDetailsRightSidebar";
-import BlogDetailsLeftSidebarPage from "./pages/blog/BlogDetailsLeftSidebar";
 import AboutPage from "./pages/about";
 import ServicePage from "./pages/service";
-import TeamPage from "./pages/team";
 import ContactPage from "./pages/contact";
 import ErrorPage from "./pages/404Error";
-import DemoPage from "./pages/demo";
 
 const App = () => {
 	return (
@@ -43,34 +43,8 @@ const App = () => {
 						component={ContactPage}
 					/>
 					<Route
-						path={`${process.env.PUBLIC_URL + "/team"}`}
-						component={TeamPage}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/service"}`}
+						path={`${process.env.PUBLIC_URL + "/skills"}`}
 						component={ServicePage}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/blog-details-left-sidebar"}`}
-						component={BlogDetailsLeftSidebarPage}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/blog-details"}`}
-						component={BlogDetailsRightSidebarPage}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/blog-two-column-left-sidebar"}`}
-						component={BlogTwoColumnLeftSidebarPage}
-					/>
-					<Route
-						path={`${
-							process.env.PUBLIC_URL + "/blog-two-column-right-sidebar"
-						}`}
-						component={BlogTwoColumnRightSidebarPage}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/blog"}`}
-						component={BlogThreeColumnPage}
 					/>
 					<Route
 						path={`${process.env.PUBLIC_URL + "/portfolio-details"}`}
@@ -100,15 +74,9 @@ const App = () => {
 						path={`${process.env.PUBLIC_URL + "/Employee Template Engine"}`}
 						component={EmployeeTempDetailPage}
 					/>
-					{/* <Route
-						path={`${
-							process.env.PUBLIC_URL + "/portfolio-grid-three-column-fullwidth"
-						}`}
-						component={PortfolioGridThreeColumnFullWidthPage}
-					/> */}
 
 					<Route
-						path={`${process.env.PUBLIC_URL + "/portfolio-grid-three-column"}`}
+						path={`${process.env.PUBLIC_URL + "/portfolio"}`}
 						component={PortfolioGridThreeColumnPage}
 					/>
 
@@ -121,6 +89,38 @@ const App = () => {
 						component={HomePersonalPortfolio}
 					/>
 					<Route exact component={ErrorPage} />
+					{/* <Route
+						path={`${process.env.PUBLIC_URL + "/team"}`}
+						component={TeamPage}
+					/>
+					<Route
+						path={`${process.env.PUBLIC_URL + "/blog-details-left-sidebar"}`}
+						component={BlogDetailsLeftSidebarPage}
+					/>
+					<Route
+						path={`${process.env.PUBLIC_URL + "/blog-details"}`}
+						component={BlogDetailsRightSidebarPage}
+					/>
+					<Route
+						path={`${process.env.PUBLIC_URL + "/blog-two-column-left-sidebar"}`}
+						component={BlogTwoColumnLeftSidebarPage}
+					/>
+					<Route
+						path={`${
+							process.env.PUBLIC_URL + "/blog-two-column-right-sidebar"
+						}`}
+						component={BlogTwoColumnRightSidebarPage}
+					/>
+					<Route
+						path={`${process.env.PUBLIC_URL + "/blog"}`}
+						component={BlogThreeColumnPage}
+					/> */}
+					{/* <Route
+							path={`${
+								process.env.PUBLIC_URL + "/portfolio-grid-three-column-fullwidth"
+							}`}
+							component={PortfolioGridThreeColumnFullWidthPage}
+						/> */}
 				</Switch>
 			</Router>
 		</Fragment>
