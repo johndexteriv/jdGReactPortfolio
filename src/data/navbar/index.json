@@ -21,7 +21,7 @@
     "subMenu": [
       {
         "id": 3.1,
-        "title": "All Projects",
+        "title": "Projects",
         "link": "/portfolio-grid-three-column",
         "subMenu": [
          
@@ -29,22 +29,33 @@
             "id": "3.1.2",
             "title": "ASGM UI",
             "link": "/ASGM WFU UI"
+          },
+          {
+            "id": "3.1.3",
+            "title": "Eat Da Burger",
+            "link": "/Eat Da Burger"
+          },
+          {
+            "id": "3.1.4",
+            "title": "Food + Flick",
+            "link": "/Food + Flick"
+          },
+          {
+            "id": "3.1.5",
+            "title": "Work Day Scheduler",
+            "link": "/Work Day Scheduler"
+          },
+          {
+            "id": "3.1.6",
+            "title": "Weather Dashboard",
+            "link": "/Weather Dashboard"
+          },
+          {
+            "id": "3.1.7",
+            "title": "Employee Template Engine",
+            "link": "/Employee Template Engine"
           }
         ]
-      },
-      {
-        "id": 3.3,
-        "title": "Portfolio Details",
-        "link": "/portfolio-details",
-        "megaMenu": false,
-        "subMenu": false
-      },
-      {
-        "id": 3.3,
-        "title": "Portfolio Details",
-        "link": "/portfolio-details",
-        "megaMenu": false,
-        "subMenu": false
       }
     ]
   },
