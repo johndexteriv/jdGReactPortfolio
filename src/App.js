@@ -5,18 +5,21 @@ import Switcher from "./components/Switcher";
 /*
  * @ Component Imported
  * */
-import HomeDefault from "./pages/home/HomeDefault";
+// import HomeFreelancerPortfolio from "./pages/home/HomeFreelancerPortfolio";
 // import HomeThreeColumn from "./pages/home/HomeThreeColumn";
 // import HomeFourColumn from "./pages/home/HomeFourColumn";
 // import HomeFiveColumn from "./pages/home/HomeFiveColumn";
 // import HomeBlog from "./pages/home/HomeBlog";
+import HomeDefault from "./pages/home/HomeDefault";
 import HomePersonalPortfolio from "./pages/home/HomePersonalPortfolio";
-// import HomeFreelancerPortfolio from "./pages/home/HomeFreelancerPortfolio";
 import PortfolioGridThreeColumnPage from "./pages/portfolio/grid/three-column";
 import PortfolioDetailsPage from "./pages/portfolio/details";
 import ASGMDetailsPage from "./pages/portfolio/details/asgm";
 import EatDaBurgerDetailsPage from "./pages/portfolio/details/eatdaburger";
 import FoodFlickDetailsPage from "./pages/portfolio/details/foodflick";
+import WorkDayDetailsPage from "./pages/portfolio/details/workday";
+import WeatherDashDetailPage from "./pages/portfolio/details/weatherdash";
+import EmployeeTempDetailPage from "./pages/portfolio/details/employeetemp";
 import BlogThreeColumnPage from "./pages/blog/ThreeColumn";
 import BlogTwoColumnLeftSidebarPage from "./pages/blog/TwoColumnLeftSidebar";
 import BlogTwoColumnRightSidebarPage from "./pages/blog/TwoColumnRightSidebar";
@@ -84,6 +87,18 @@ const App = () => {
 					<Route
 						path={`${process.env.PUBLIC_URL + "/Eat Da Burger"}`}
 						component={EatDaBurgerDetailsPage}
+					/>
+					<Route
+						path={`${process.env.PUBLIC_URL + "/Work Day Scheduler"}`}
+						component={WorkDayDetailsPage}
+					/>
+					<Route
+						path={`${process.env.PUBLIC_URL + "/Weather Dashboard"}`}
+						component={WeatherDashDetailPage}
+					/>
+					<Route
+						path={`${process.env.PUBLIC_URL + "/Employee Template Engine"}`}
+						component={EmployeeTempDetailPage}
 					/>
 					{/* <Route
 						path={`${
