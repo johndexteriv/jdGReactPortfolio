@@ -38,6 +38,13 @@
         "link": "/portfolio-details",
         "megaMenu": false,
         "subMenu": false
+      },
+      {
+        "id": 3.3,
+        "title": "Portfolio Details",
+        "link": "/portfolio-details",
+        "megaMenu": false,
+        "subMenu": false
       }
     ]
   },
