@@ -1,23 +1,9 @@
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Switcher from "./components/Switcher";
 
 /*
  * @ Component Imported
  * */
-// import HomeFreelancerPortfolio from "./pages/home/HomeFreelancerPortfolio";
-// import HomeThreeColumn from "./pages/home/HomeThreeColumn";
-// import HomeFourColumn from "./pages/home/HomeFourColumn";
-// import HomeFiveColumn from "./pages/home/HomeFiveColumn";
-// import HomeBlog from "./pages/home/HomeBlog";
-// import BlogThreeColumnPage from "./pages/blog/ThreeColumn";
-// import BlogTwoColumnLeftSidebarPage from "./pages/blog/TwoColumnLeftSidebar";
-// import BlogTwoColumnRightSidebarPage from "./pages/blog/TwoColumnRightSidebar";
-// import BlogDetailsRightSidebarPage from "./pages/blog/BlogDetailsRightSidebar";
-// import BlogDetailsLeftSidebarPage from "./pages/blog/BlogDetailsLeftSidebar";
-// import HomeDefault from "./pages/home/HomeDefault";
-// import TeamPage from "./pages/team";
-// import DemoPage from "./pages/demo";
 import HomePersonalPortfolio from "./pages/home/HomePersonalPortfolio";
 import PortfolioGridThreeColumnPage from "./pages/portfolio/grid/three-column";
 import PortfolioDetailsPage from "./pages/portfolio/details";
@@ -35,7 +21,6 @@ import ErrorPage from "./pages/404Error";
 const App = () => {
 	return (
 		<Fragment>
-			<Switcher />
 			<Router>
 				<Switch>
 					<Route
@@ -89,38 +74,6 @@ const App = () => {
 						component={HomePersonalPortfolio}
 					/>
 					<Route exact component={ErrorPage} />
-					{/* <Route
-						path={`${process.env.PUBLIC_URL + "/team"}`}
-						component={TeamPage}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/blog-details-left-sidebar"}`}
-						component={BlogDetailsLeftSidebarPage}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/blog-details"}`}
-						component={BlogDetailsRightSidebarPage}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/blog-two-column-left-sidebar"}`}
-						component={BlogTwoColumnLeftSidebarPage}
-					/>
-					<Route
-						path={`${
-							process.env.PUBLIC_URL + "/blog-two-column-right-sidebar"
-						}`}
-						component={BlogTwoColumnRightSidebarPage}
-					/>
-					<Route
-						path={`${process.env.PUBLIC_URL + "/blog"}`}
-						component={BlogThreeColumnPage}
-					/> */}
-					{/* <Route
-							path={`${
-								process.env.PUBLIC_URL + "/portfolio-grid-three-column-fullwidth"
-							}`}
-							component={PortfolioGridThreeColumnFullWidthPage}
-						/> */}
 				</Switch>
 			</Router>
 		</Fragment>

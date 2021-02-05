@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import navbarData from "../../data/navbar";
 
 const NavItem = () => {
-	console.log("this is the navbar data", navbarData);
 	return navbarData.map((navItem) => (
 		<li
 			key={navItem.id}
