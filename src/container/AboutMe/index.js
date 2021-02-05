@@ -53,7 +53,7 @@ const AboutMe = ({ type }) => {
 							</ul>
 							<Row>
 								<Col lg={6}>
-									<h3 className="block-title">Skill</h3>
+									<h3 className="block-title">Skill Set</h3>
 
 									<div className="skill-wrap">
 										{aboutData.skills.map((skill) => (
