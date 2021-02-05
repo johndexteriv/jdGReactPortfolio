@@ -16,17 +16,28 @@
   },
   {
     "id": 4,
-    "title": "APP DEVELOPMENT",
-    "content": "There are many variations of passages of Ipsum available, but the majority have suffered alteration in some form, variations of passages of Ipsum available but the majority have suffered"
+    "title": "NODE.JS",
+    "content": "A back-end runtime environment for server-side Javascript."
   },
   {
     "id": 5,
-    "title": "PHOTOSHOP",
-    "content": "There are many variations of passages of Ipsum available, but the majority have suffered alteration in some form, variations of passages of Ipsum available but the majority have suffered"
+    "title": "EXPRESS.JS",
+    "content": "A flexible Node.JS framework for seamless API development and server interaction."
   },
   {
     "id": 6,
-    "title": "GRAPHIC DESIGN",
-    "content": "There are many variations of passages of Ipsum available, but the majority have suffered alteration in some form, variations of passages of Ipsum available but the majority have suffered"
+    "title": "API Interaction",
+    "content": "Handling user data requests and server responses with REST design principles."
+  },
+  {
+    "id": 7,
+    "title": "Relational & Document-oriented Databases",
+    "content": "Experience using CRUD methodology for database interaction. Primary databases and ORM's include MySQL, Sequelize, MongoDB, Mongoose and JawsDB."
+  },
+  {
+    "id": 8,
+    "title": "GIT",
+    "content": "Version control working on large applications with teams."
   }
+
 ]
