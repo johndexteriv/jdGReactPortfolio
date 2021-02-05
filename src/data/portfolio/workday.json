@@ -1,0 +1,19 @@
+{
+  "title": "Work Day Scheduler",
+  "category": "Design",
+  "description": "Work Day Scheduler gives the user the ability to store and retrieve events from local storage in order to easily plan their 9 to 5 workday.",
+  "previewImages": [
+    "calendarIMG.png"
+  ],
+  "meta": {
+    "client": "UNC Boot Camp",
+    "date": "10/01/2020",
+    "website": "https://johndexteriv.github.io/simpleCalendar/",
+    "services": [
+      "HTML",
+      "CSS",
+      "JQUERY",
+      "MINUTE.JS LIBRARY"
+    ]
+  }
+}
