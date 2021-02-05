@@ -16,7 +16,7 @@ const HomePersonalPortfolio = () => {
 			<Header classes={"position-static"} />
 			<SideHeader mobile={true} />
 			<BannerPersonalPortfolio />
-			{/* <PersonalPortfolio/> */}
+			{/* <PersonalPortfolio /> */}
 			<PersonalPortfolioService />
 			{/* <PersonalPortfolioTeam />
 			<Contact /> */}

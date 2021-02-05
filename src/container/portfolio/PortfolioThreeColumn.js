@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import Scrollbar from "perfect-scrollbar-react";
 import "perfect-scrollbar-react/dist/style.min.css";
 import Portfolio from "../../components/portfolio";
@@ -18,16 +17,6 @@ const PortfolioThreeColumn = ({ portfolios, loading }) => {
 					}}
 				>
 					<Scrollbar options={{ suppressScrollX: true }} enable={!isMobile}>
-						<Row>
-							<Col>
-								<SectionTitle
-									title={"Portfolio"}
-									content={
-										"Various projects made with love and powered by modern client-side and server-side technologies."
-									}
-								/>
-							</Col>
-						</Row>
 						<div className="section-wrap section">
 							<div className="row row-7 portfolio-column-three">
 								{portfolios.map((portfolio) => (
