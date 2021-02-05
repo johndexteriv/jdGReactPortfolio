@@ -1,28 +1,45 @@
 {
-  "thumb": "about.jpg",
-  "bio": "There are many variations of passages of Lorem available, but the lteration in some form, by injected humour lebmid ipsum by injected humour lebmid. There are many variations of passages of Lorem, but the majority have suffered lebmid by injected.",
-  "skype": "jonathon.haris111",
+  "thumb": "burger.png",
+  "bio": "I recently completed a certificate in full stack web development from the University of North Carolina at Chapel Hill. I also have a Bachelor of Business degree from East Carolina University.",
+"bio1": "My tenacity and work ethic have afforded me the opportunity to prove myself and be successful in some of the most competitive cities in the United States. I have previously held the role of Senior Sales Associate at Sid Mashburn, Washington DC and subsequently Sales Manager at Drake’s, New York City.",
+"bio2": "The impact of COVID 19 on the retail industry in Manhattan has resulted in my decision to pivot towards a technical career where I can transfer the soft skills that i have mastered in the clothing industry that are also needed to be successful in the tech world. I have a demonstrated history in understanding requirements, working collaboratively and motivating teams in order to exceed goals ahead of schedule. I look forward to applying these skills in order to be part of a team driven to develop responsive user friendly applications.",
+  "github": "johndexteriv",
   "availability": true,
-  "languages": [
-    "English",
-    "Hindi",
-    "Bengali",
-    "Telegu"
+  "email": "jdextergarneriv@gmail.com",
+  "resume": [
+    "Click To Download"
   ],
   "skills": [
     {
       "id": 1,
-      "title": "Graphic Design",
+      "title": "HTML",
       "percentage": 75
     },
     {
       "id": 2,
-      "title": "Photoshop",
+      "title": "CSS",
       "percentage": 90
     },
     {
       "id": 3,
-      "title": "Web Design",
+      "title": "Javascript",
+      "percentage": 80
+    }
+  ],
+   "skillstwo": [
+    {
+      "id": 4,
+      "title": "NodeJS",
+      "percentage": 75
+    },
+    {
+      "id": 5,
+      "title": "SQL & MongoDB",
+      "percentage": 90
+    },
+    {
+      "id": 6,
+      "title": "React",
       "percentage": 80
     }
   ]
