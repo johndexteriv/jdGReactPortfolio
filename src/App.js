@@ -16,6 +16,7 @@ import PortfolioGridThreeColumnPage from "./pages/portfolio/grid/three-column";
 import PortfolioDetailsPage from "./pages/portfolio/details";
 import ASGMDetailsPage from "./pages/portfolio/details/asgm";
 import EatDaBurgerDetailsPage from "./pages/portfolio/details/eatdaburger";
+import FoodFlickDetailsPage from "./pages/portfolio/details/foodflick";
 import BlogThreeColumnPage from "./pages/blog/ThreeColumn";
 import BlogTwoColumnLeftSidebarPage from "./pages/blog/TwoColumnLeftSidebar";
 import BlogTwoColumnRightSidebarPage from "./pages/blog/TwoColumnRightSidebar";
@@ -75,6 +76,10 @@ const App = () => {
 					<Route
 						path={`${process.env.PUBLIC_URL + "/ASGM WFU UI"}`}
 						component={ASGMDetailsPage}
+					/>
+					<Route
+						path={`${process.env.PUBLIC_URL + "/Food + Flick"}`}
+						component={FoodFlickDetailsPage}
 					/>
 					<Route
 						path={`${process.env.PUBLIC_URL + "/Eat Da Burger"}`}
